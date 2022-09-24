@@ -1,0 +1,169 @@
+body{
+    background-color:rgb(240, 41, 81);
+    padding:40px 20px;
+    
+}
+.container{
+    background-color:rgb(238, 234, 234);
+}
+/* navbar code start here */
+.header{
+    background-color:white;
+    display:flex;
+}
+.header > div{
+    width:33.33%;
+    
+}
+.img1{
+    height: 30px;
+    width: 40px;
+    padding-top: 12px;
+    padding-left: 17px;
+}
+.inputfield{
+    background-color:rgb(238, 234, 234);
+    border-radius: 35px;
+    border:none;
+    padding: 7px 120px;
+    margin-top: 12px;
+}
+   
+.img2{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.header-inside{
+    text-align: right;
+}
+.space
+{
+    padding:15px;
+}
+.name{
+    display:inline;
+    color:burlywood;
+}
+
+/* side bar code start here */
+.side-bar{
+    background-color:black;
+    height: 970px;
+    width:200px;
+    float:left;
+}
+.side-bar-in{
+    text-decoration: none;
+    color:white;
+    display:block;
+    text-align:center;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.side-bar-in:hover{
+    background-color:rgb(231, 40, 97);
+}
+#hotel{
+    margin-top:25px;
+}
+
+/* Hotel view code start here */
+.section-1{
+    display:flex;
+}
+.img3{
+    width:33.33%;
+    height:200px;
+}
+h1{
+    color:grey; 
+    margin-left:20px;
+}
+.section-1-inside{
+    background-color:white;
+    display:flex;
+    
+}
+.part1{
+    margin-left:556px;
+    color:grey;
+    font-size:20px;
+    text-decoration:solid grey underline;
+}
+.part2{
+    background-color:crimson;
+    color:white;
+    margin-left:30px;
+    text-align:center;
+}
+
+/* hotel description and review code */
+.section-2{
+    display:flex;
+    
+}
+.section-2 >div{
+    margin:25px;
+}
+.s2-part1-a{
+    width:550px;
+    height:600px;
+    background-color: white;
+    padding:20px;
+}
+.s2-part1-b{
+    display:flex;
+}
+.s2-part1-b> div{
+    padding:15px;
+}
+.s2-part1-c{
+    display:flex;
+}
+.s2-part1-c >img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin:-10px;
+}
+
+.s2-part2{
+    width:250px;
+    height:500px;
+    background-color: white;  
+}
+.s2-part2-a,.s2-part2-b{
+    padding:0px 20px;
+    padding-top:10px;
+    
+}
+.s2-part-a-1 ,.s2-part-b-1{
+    display: flex;
+}
+.s2-part-a-1 > img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.s2-part-b-1 > img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.s2-part3{
+    padding-top:50px;
+    width:220px;
+    height:500px;
+}
+.s2-part3 > p{
+    font-size:22px;
+}
+button{
+    color:white;
+    background-color:crimson;
+    border:none;
+    padding:10px 70px;
+    border-radius:50px;
+}
+
